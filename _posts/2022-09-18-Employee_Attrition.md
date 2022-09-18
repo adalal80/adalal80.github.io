@@ -47,11 +47,11 @@ employee leaves as I do not want to be short handed and have enough time to find
 Using Logistic Regression, I performed four different models, using a combination of scaled/non-scaled data, and with and withou RFE
 Results are shown below:
 
-| Model                                       | Accuracy |  AUC  | False Negative |
-|---------------------------------------------|:--------:|:-----:|:--------------:|
-| Logistic Regression - Scaled Data           |  0.934   | 0.972 |     0.052      |
-| Logistic Regression - Non-Scaled Data       |  0.922   | 0.945 |     0.060      |
-| Logistic Regression - Scaled w/RFE Data     |  0.903   | 0.909 |     0.076      |
+|                    Model                    | Accuracy |  AUC  | False Negative |
+|:-------------------------------------------:|:--------:|:-----:|:--------------:|
+|      Logistic Regression - Scaled Data      |  0.934   | 0.972 |     0.052      |
+|    Logistic Regression - Non-Scaled Data    |  0.922   | 0.945 |     0.060      |
+|   Logistic Regression - Scaled w/RFE Data   |  0.903   | 0.909 |     0.076      |
 | Logistic Regression - Non-Scaled w/RFE Data |  0.928   | 0.967 |     0.050      |
 
 It seems like Logistic Regression is overfitting. We will compare this later on with the other models.
@@ -63,10 +63,10 @@ introduces bagging and random sampling of features, it leads me to believe that 
 has an overfiting problem
 
 
-| Model                                       | Accuracy |  AUC  | False Negative |
-|---------------------------------------------|:--------:|:-----:|:--------------:|
-| Random Forest - wo/RFE                      |  0.901   | 0.950 |     0.092      |
-| Random Forest - w/RFE                       |  0.907   | 0.950 |     0.082      |
+|                    Model                    | Accuracy |  AUC  | False Negative |
+|:-------------------------------------------:|:--------:|:-----:|:--------------:|
+|           Random Forest - wo/RFE            |  0.901   | 0.950 |     0.092      |
+|            Random Forest - w/RFE            |  0.907   | 0.950 |     0.082      |
 
 
 The Confusion Matrix:
@@ -81,8 +81,8 @@ For RFE:
 #### Extra Trees
 The Extra Trees and Random Forest w/RFE yielded similar results
 
-| Model       | Accuracy |  AUC  | False Negative |
-|-------------|:--------:|:-----:|:--------------:|
+|    Model    | Accuracy |  AUC  | False Negative |
+|:-----------:|:--------:|:-----:|:--------------:|
 | Extra Trees |  0.907   | 0.941 |     0.082      |
 
 The Confusion Matrix:
@@ -92,8 +92,8 @@ The Confusion Matrix:
 
 Gradient Boosting does perform better than Random Forest and Extra Trees, but also known to overfit.
 
-| Model             | Accuracy |  AUC  | False Negative |
-|-------------------|:--------:|:-----:|:--------------:|
+|       Model       | Accuracy |  AUC  | False Negative |
+|:-----------------:|:--------:|:-----:|:--------------:|
 | Gradient Boosting |  0.922   | 0.954 |     0.060      |
 
 The Confusion Matrix:
