@@ -62,10 +62,12 @@ The false negative was lower with the RFE, but still was higher than Logistic Re
 introduces bagging and random sampling of features, it leads me to believe that Logistic Regression indeed 
 has an overfiting problem
 
- Model                  | Accuracy |  AUC  | False Negative |
-|------------------------|:--------:|:-----:|:--------------:|
-| Random Forest - wo/RFE |  0.901   | 0.950 |     0.092      |
-| Random Forest - w/RFE  |  0.907   | 0.950 |     0.082      |
+
+| Model                                       | Accuracy |  AUC  | False Negative |
+|---------------------------------------------|:--------:|:-----:|:--------------:|
+| Random Forest - wo/RFE                      |  0.901   | 0.950 |     0.092      |
+| Random Forest - w/RFE                       |  0.907   | 0.950 |     0.082      |
+
 
 The Confusion Matrix:
 For Non-RFE:
