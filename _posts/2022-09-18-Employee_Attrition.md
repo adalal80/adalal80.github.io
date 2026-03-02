@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting Attrition in Healthcare Industry?"
+title: "Predicting Attrition in Healthcare Industry"
 ---
 
 ## Predicting Attrition in Healthcare Industry
