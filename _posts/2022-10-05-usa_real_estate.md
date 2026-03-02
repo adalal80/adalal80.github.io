@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "USA Real Estate - Predicting Sales Price?"
+title: "USA Real Estate - Predicting Sales Price"
 ---
 
 ## Predicting Price in USA Real Estate Market
