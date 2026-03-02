@@ -11,5 +11,5 @@ permalink: /about/
   
  <br><br>
 
-[![LinkedIN](https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png)](https://www.linkedin.com/in/amish-dalal-0743b3a)
+[![LinkedIN](https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png)](https://www.linkedin.com/in/adalal80)
 
