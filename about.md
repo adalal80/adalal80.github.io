@@ -10,6 +10,6 @@ permalink: /about/
 
   
  <br><br>
-
+You can contact me via LinkedIn.
 [![LinkedIN](https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png)](https://www.linkedin.com/in/abdalal)
 
