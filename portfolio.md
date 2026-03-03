@@ -21,9 +21,9 @@ Rule-based approaches weren't viable given how inconsistently descriptions were 
 There were two user personas with different needs: operational reviewers (determining pass/fail) and description editors (fixing deficiencies). Engineering estimated that fully automating the reviewer workflow would take several months due to unclear requirements, while the editor workflow could be delivered in weeks. I prioritized the editor experience first and supported reviewers with a bulk export so they could still consume model outputs without a full workflow rebuild.
 
 ### Outcome
-- Sustained increase in descriptions passing data quality requirements, directly supporting closure of a regulatory finding
-- Manual review effort dropped materially
-- Solution remained durable as writing patterns evolved — retrained on a planned annual cadence, not constant rule updates
+- Sustained increase in descriptions passing data quality requirements, directly supporting closure of a regulatory finding.
+- Manual review effort dropped materially.
+- Solution remained durable as writing patterns evolved — retrained on a planned annual cadence, not constant rule updates.
 
 > *"Trust, not just accuracy, determines whether AI products work."*
 
