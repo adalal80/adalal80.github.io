@@ -2,10 +2,9 @@
 layout: archive
 title: Portfolio
 permalink: /portfolio/
-category: "portfolio"
+---
 tagline: "Products I've built. Problems I've solved."
 ---
-
 ## Data Quality AI Models
 **Compliance and Operational Risk Platform · JPMorgan Chase**
 
