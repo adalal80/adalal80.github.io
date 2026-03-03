@@ -8,7 +8,7 @@
 # Site settings
 title: Adam Dalal
 email: adalal80@gmail.com
-description: Blogging topics around AI, Data, and Product Managment
+description: Senior PM building AI & data products. Writing about what I learn along the way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://adalal80.github.io" # the base hostname & protocol for your site
 #twitter_username: adalal80
