@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: Portfolio
-permalink: /Portfolio/
-category: "Portfolio"
+permalink: /portfolio/
+category: "portfolio"
 tagline: "Products I've built. Problems I've solved."
 ---
 
