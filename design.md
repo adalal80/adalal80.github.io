@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Design
-permalink: /design/
-category: "design"
-tagline: "it's all about perception."
+title: Portfolio
+permalink: /Portfolio/
+category: "Portfolio"
+tagline: "Products I've built. Problems I've solved."
 ---
