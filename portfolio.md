@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: Portfolio
 permalink: /portfolio/
 tagline: "Products I've built. Problems I've solved."
