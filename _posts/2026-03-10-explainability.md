@@ -28,3 +28,5 @@ If explainability is a user requirement, and it should be, then model selection 
 #### "What would you need to see from this model to not only use it, but trust it?"
 
 This is Part 1 of a two-part series, "If You Build It, Will They Come?" Part 2 looks at the same problem from a different angle.
+
+Author: Adam Dalal
