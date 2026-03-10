@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "If You Build It, Will They Come? — Part 1: The Trust Problem
+title: "If You Build It, Will They Come? — Part 1: The Trust Problem"
 ---
 
 ### Why did the model make that prediction?
