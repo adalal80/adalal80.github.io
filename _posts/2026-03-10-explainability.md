@@ -4,7 +4,7 @@ title: "If You Build It, Will They Come? — Part 1: The Trust Problem"
 ---
 
 #### Why did the model make that prediction?
-I shipped a deep learning model to internal users, 85% accurate, validated against a test set, and signed off by end users during feedback sessions. I had showcased it to stakeholders, walked through the problem it solved, shared the performance metrics, and explained how it was validated. By every measure I was tracking, we were ready.
+I shipped a deep learning model, built for a compliance use case, to internal users, 85% accurate, validated against a test set, and signed off by end users during feedback sessions. I had showcased it to stakeholders, walked through the problem it solved, shared the performance metrics, and explained how it was validated. By every measure I was tracking, we were ready.
 
 After it went live, adoption sat at 20%. I asked myself why people weren't using it. The benefits were real. It automated manual decision making and delivered recommendations instantaneously, saving users significant time. So I talked to several users. They asked me: why did the model make that prediction? They told me they had spent significant time trying to understand how the inputs affected the output, but couldn't reconcile it. The model had 12 inputs. They were overwhelmed trying to understand which ones actually drove the prediction they were looking at.
 
