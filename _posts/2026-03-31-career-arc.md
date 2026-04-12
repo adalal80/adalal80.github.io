@@ -3,7 +3,6 @@ layout: post
 title: "How Chemical Engineering Shaped How I Think as a Product Manager"
 ---
 
-#### How Chemical Engineering Shaped How I Think as a Product Manager
 I had never set foot on a refinery when I volunteered for a construction project at Motiva's PARCEP facility in Port Arthur. By the time we were done, I was the lead engineer for my discipline on that unit.
 
 My job was to ensure that every instrument in that unit was tested, verified, and handed off correctly. We were responsible for thousands of instruments and every one of them had a function, a tolerance, and a failure mode. If a vessel ran too hot, the system automatically brought in cooling water. If a tank level climbed too high, the outlet valve opened. The unit was designed to correct itself, but only if every instrument was calibrated and wired correctly. My job was to make sure it would.
