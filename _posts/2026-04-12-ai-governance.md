@@ -3,8 +3,6 @@ layout: post
 title: "If You Can't Measure It, You Can't Govern It"
 ---
 
-#### If You Can't Measure It, You Can't Govern It"
-
 In a previous post I wrote about how chemical engineering shaped how I think as a product manager. The short version: before anything went live on a refinery, we had to define every operating limit, every alert condition, and every sequence of actions the system would take if something went wrong. You couldn't bolt that on after the fact. The consequences were too significant.
 
 I think about AI governance the same way. Most teams don't.
