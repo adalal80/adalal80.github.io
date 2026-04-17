@@ -24,6 +24,6 @@ With the AI model, we could now automatically target the descriptions that are f
 Chemical engineering didn't teach me how to build products, it taught me how to think about systems. What goes in, what comes out, what happens at each stage, what breaks when something upstream fails, and what you need to measure to know whether the outcome you want is actually happening.
 Studying economics sharpened how I think about tradeoffs, incentives, and user behavior, but the instinct to map a system before touching any individual part of it, that came from what chemical engineering taught me.
 
-If you are a PM, start with the workflow before you touch the solution. Map the inputs and outputs at every stage, understand the constraints, think about downstream consequences. Ask what you need to track to know whether the outcome you want is actually happening. The solution is one component in a system, so treat it that way.
+If you are a PM, start with the workflow before you touch the solution. Map the inputs and outputs at every stage, understand the constraints, and think about downstream consequences. Ask what you need to track to know whether the outcome you want is actually happening. The solution is one component in a system, so treat it that way.
 
 Author: Adam Dalal
