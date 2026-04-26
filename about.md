@@ -11,8 +11,8 @@ My background is unusual for a PM. I studied chemical engineering, worked in oil
 My day job is at JPMorgan Chase, where I've spent the last several years building AI and data products — decisioning models, a PII Detection Platform, data quality tools — all built as APIs and integrated into internal platforms that engineers, analysts, and business teams rely on daily.
 
 I also build things on the side when I have a problem I can't stop thinking about. My latest is Fork It, a group restaurant decision tool I built after watching way too many friend group chats spiral into chaos over where to eat. It's small, but it's taught me a lot about what it means to scope ruthlessly and ship something real.
-This blog is where I write about what I'm working on, what I'm learning, and the occasional opinion on AI products and the PM craft.
-If something resonates, or you're hiring, reach out.
+This blog is where I write about what I'm working on, what I'm learning, and the occasional opinion on AI products and the PM craft. Most of what I write comes back to the same argument: good product discipline matters more than the technology, and the two keep getting confused. If something resonates, reach out.
+
 
   
  <br><br>
