@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "If You Build It, Will They Come? — The Problem With How Leadership Thinks About AI"
+title: "Why Leadership Builds AI Tools Nobody Uses"
 ---
 
 The push is almost always top down. Leadership decides the organization needs to be doing AI, sets a target, and the teams below them start building. The problem is that the demand for most of what gets built was never really there. A goal was set and the goal was activity. Leadership is competing internally to show leadership above them how they are pushing the AI agenda, and the result is a race to ship more and ship faster where nobody stops to ask whether any of it is working.
