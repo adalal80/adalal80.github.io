@@ -3,7 +3,6 @@ layout: post
 title: "If You Can't Measure It, You Can't Govern It"
 ---
 
-
 Most teams treat AI governance as a compliance exercise. Something you bolt on after the model is built, a checklist you run through before launch, a box you check so the right people feel comfortable. That is the wrong frame entirely.
 
 Governance is a design requirement. It has to be defined before anything goes live.
