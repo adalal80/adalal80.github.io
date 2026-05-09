@@ -5,8 +5,7 @@
 ---
 
 ## Summary
-
-AI Product Manager with a background in chemical engineering and economics, specializing in diagnosing where complex workflows break and building the right AI fix for that specific gap. I own AI/ML portfolios end-to-end, from problem framing and roadmap through governance and adoption, and still code the models I ship. My instinct is systems-first: find the constraint, isolate the variable, build for that. That approach has worked in financial services and I am looking for a senior AI role where the problems are hard and the outcomes are real, regardless of domain.
+AI Product Manager who finds where friction lives in complex workflows, weighs the tradeoffs, and builds the solution that removes it. Most AI failures are not model failures. They are adoption failures, trust gaps, and incentive misalignment. I own portfolios end to end, validate models myself, and have blocked deployments that did not meet the bar even under leadership pressure.
 
 ---
 
