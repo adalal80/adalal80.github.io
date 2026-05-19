@@ -22,16 +22,18 @@ permalink: /
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 2.5rem 0;" />
 
-<h3 style="margin-bottom: 1.5rem;">Core Applications & Projects</h3>
+<h3 style="margin-top: 2rem; margin-bottom: 1rem; font-weight: 600;">Core Applications & Projects</h3>
 
-<div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-  {% for project in site.data.projects %}
+<div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+  {% for project in site.personal_docs %}
     <div class="project-card" style="border: 1px solid #e0e0e0; padding: 1.25rem; border-radius: 6px; background: #fafafa; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
         <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1.2rem;">
-          <a href="{{ project.url }}" target="_blank" style="text-decoration: none; color: #0076ff; font-weight: 600;">{{ project.name }}</a>
+          <a href="{{ project.url }}" style="text-decoration: none; color: #0076ff; font-weight: 600;">{{ project.name }}</a>
         </h4>
-        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.description }}</p>
+        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">
+          {{ project.content | strip_html | truncatewords: 20 }}
+        </p>
       </div>
       <div style="font-size: 0.8rem; color: #666; border-top: 1px solid #eee; padding-top: 0.75rem; font-family: monospace;">
         <strong>STACK:</strong> {{ project.tech | join: ", " }}
