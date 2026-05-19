@@ -9,8 +9,8 @@
 title: Adam Dalal
 email: adalal80@gmail.com
 description: Senior PM building AI & data products. Writing about what I learn along the way.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://adalal80.github.io" # the base hostname & protocol for your site
+url: "https://abdalal.com"
+baseurl: ""
 #twitter_username: adalal80
 github_username:  adalal80
 
