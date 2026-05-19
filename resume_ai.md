@@ -6,8 +6,6 @@ permalink: /resume_ai/
 
 # Adam Dalal
 
-**Email:** adalal80@gmail.com | **LinkedIn:** abdalal | **Website:** adalal80.github.io | **Location:** New York, NY | **Phone:** (832) 646-3179
-
 ---
 
 ## Summary
