@@ -16,3 +16,10 @@ github_username:  adalal80
 
 # Build settings
 markdown: kramdown
+
+header_pages:
+  - index.html
+  - about.md
+  - portfolio.md
+  - resume_ai.md
+  - other.md
