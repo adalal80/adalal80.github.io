@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /portfolio/personal/
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <h2 style="margin-top: 1.5rem; margin-bottom: 0.5rem; border-bottom: none; font-weight: 700;">Passion & Hobby Projects</h2>
