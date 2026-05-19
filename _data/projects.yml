@@ -1,9 +1,23 @@
-- name: "Forkit the App fka Stick a Fork in It"
-  description: "A lean, deterministic restaurant discovery and voting application engineered to eliminate group decision friction. Built with real-time state synchronization."
-  url: "https://forkitapp.co"
-  tech: ["React", "Supabase", "Vercel", "Tailwind"]
+work_projects:
+  - name: "Data Quality AI Models"
+    description: "Designed and deployed deterministic validation models to monitor, assess, and ensure high-fidelity data quality across enterprise systems, drastically cutting down on downstream operational errors and model anomalies."
+    tech: ["Data Quality AI", "Model Validation", "Deterministic Workflows"]
 
-- name: "Spanish Multi-Agent Simulation"
-  description: "An agentic operational framework utilizing custom text schemas to run high-frequency, conversational language acquisition simulations."
-  url: "#"
-  tech: ["Python", "Multi-Agent Architecture"]
+  - name: "PII Detection Platform"
+    description: "Engineered and scaled an automated processing framework to detect and redact personally identifiable information (PII) across complex data pipelines, safeguarding user privacy and ensuring rigorous regulatory compliance."
+    tech: ["Data Privacy", "Pipeline Security", "Automated Redaction"]
+
+  - name: "Generative AI for Risk Event Submissions"
+    description: "Developed an operational framework utilizing generative language models to streamline and standardize risk event reporting. Improved ingestion efficiency and reduced documentation bottlenecks for compliance operations."
+    tech: ["Generative AI", "Risk Operations", "Compliance Workflows"]
+
+personal_projects:
+  - name: "Stick a Fork in It"
+    description: "A lean, real-time restaurant discovery and voting application engineered to eliminate group decision friction and minimize data overhead."
+    url: "https://forkitapp.co"
+    tech: ["React", "Supabase", "Vercel", "Tailwind"]
+
+  - name: "Spanish Multi-Agent Simulation"
+    description: "An agentic operational framework utilizing custom text schemas to run high-frequency, conversational language acquisition simulations."
+    url: "#"
+    tech: ["Python", "Multi-Agent Architecture", "LLMs"]
