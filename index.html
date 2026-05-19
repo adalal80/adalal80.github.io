@@ -1,40 +1,39 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
+## Technical Product Management & Engineering
 
+I build deterministic systems, web applications, and agentic validation frameworks. Currently based in New York City.
 
-  {% for post in site.posts%}
-  <div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    <div class="postDay">
-      {{post.tag}}
-    </div>
-    <br>
-    <div class="postTitle">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
-    <div class="postExt">
-   {{ post.content | strip_html | truncatewords:20}}
-    </div>
-  </div>
+---
 
+### Core Applications & Projects
 
+<div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+  {% for project in site.data.projects %}
+    <div class="project-card" style="border: 1px solid #e0e0e0; padding: 1.25rem; border-radius: 6px; background: #fafafa;">
+      <h4 style="margin-top: 0;">
+        <a href="{{ project.url }}" target="_blank" style="text-decoration: none; color: #0076ff;">{{ project.name }}</a>
+      </h4>
+      <p style="font-size: 0.95rem; margin-bottom: 1rem; color: #333;">{{ project.description }}</p>
+      <div style="font-size: 0.8rem; color: #666;">
+        <strong>Stack:</strong> {{ project.tech | join: ", " }}
+      </div>
+    </div>
   {% endfor %}
-  <!--<ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta-main">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link-main" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>-->
-
-
-
 </div>
+
+---
+
+### Writing & Insights
+
+<ul class="posts-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date" style="color: #888; font-family: monospace; margin-right: 10px;">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
