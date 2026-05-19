@@ -1,27 +1,25 @@
 ---
 layout: default
-title: Portfolio
-permalink: /portfolio/
+permalink: /portfolio/personal/
 ---
 
-<h2 style="margin-top: 1.5rem; margin-bottom: 2rem; border-bottom: none; font-weight: 700;">Portfolio Directories</h2>
+<h2 style="margin-top: 1.5rem; margin-bottom: 0.5rem; border-bottom: none; font-weight: 700;">Passion & Hobby Projects</h2>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; margin-bottom: 2rem;">
+  Independent full-stack applications, experimental agentic architectures, and personal utility tools.
+</p>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-  <a href="/portfolio/work/" style="text-decoration: none; color: inherit;">
-    <div style="border: 1px solid #e0e0e0; padding: 1.75rem; border-radius: 6px; background: #fafafa; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-      <h3 style="color: #0076ff; margin-top: 0; margin-bottom: 0.75rem; font-weight: 600;">Enterprise & Work</h3>
-      <p style="color: #444; margin-bottom: 0; font-size: 0.95rem; line-height: 1.5;">
-        Production-grade enterprise engines, econometric validation models, and risk management systems.
-      </p>
+<div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+  {% for project in site.data.projects.personal_projects %}
+    <div class="project-card" style="border: 1px solid #e0e0e0; padding: 1.25rem; border-radius: 6px; background: #fafafa; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1.2rem;">
+          <a href="{{ project.url }}" target="_blank" style="text-decoration: none; color: #0076ff; font-weight: 600;">{{ project.name }}</a>
+        </h4>
+        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.description }}</p>
+      </div>
+      <div style="font-size: 0.8rem; color: #666; border-top: 1px solid #eee; padding-top: 0.75rem; font-family: monospace;">
+        <strong>STACK:</strong> {{ project.tech | join: ", " }}
+      </div>
     </div>
-  </a>
-
-  <a href="/portfolio/personal/" style="text-decoration: none; color: inherit;">
-    <div style="border: 1px solid #e0e0e0; padding: 1.75rem; border-radius: 6px; background: #fafafa; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-      <h3 style="color: #0076ff; margin-top: 0; margin-bottom: 0.75rem; font-weight: 600;">Passions & Hobbies</h3>
-      <p style="color: #444; margin-bottom: 0; font-size: 0.95rem; line-height: 1.5;">
-        Independent full-stack applications, experimental agentic architectures, and personal utility tools.
-      </p>
-    </div>
-  </a>
+  {% endfor %}
 </div>
