@@ -23,3 +23,11 @@ header_pages:
   - portfolio.md
   - resume_ai.md
   - other.md
+
+collections:
+  work_docs:
+    output: true
+    permalink: /portfolio/work/:path/
+  personal_docs:
+    output: true
+    permalink: /portfolio/personal/:path/
