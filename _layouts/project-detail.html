@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+    <p style="margin-bottom: 0.5rem;"><a href="/portfolio/" style="text-decoration: none; color: #0076ff; font-weight: 500;">&larr; Back to Portfolio</a></p>
+    <h1 class="post-title" style="font-weight: 700; margin-bottom: 0.5rem; border-bottom: none;">{{ page.name }}</h1>
+    
+    <div style="margin-top: 1rem; font-family: monospace; font-size: 0.9rem; color: #666;">
+      {% if page.tech %}
+        <strong>STACK/CAPABILITIES:</strong> {{ page.tech | join: ", " }}
+      {% endif %}
+      {% if page.project_url %}
+        <br><strong>LIVE SITE:</strong> <a href="{{ page.project_url }}" target="_blank" style="color: #0076ff;">{{ page.project_url }}</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content" style="line-height: 1.7; color: #222;">
+    {{ content }}
+  </div>
+</article>
