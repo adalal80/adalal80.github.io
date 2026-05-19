@@ -1,4 +1,4 @@
-- name: "Stick a Fork in It"
+- name: "Forkit the App fka Stick a Fork in It"
   description: "A lean, deterministic restaurant discovery and voting application engineered to eliminate group decision friction. Built with real-time state synchronization."
   url: "https://forkitapp.co"
   tech: ["React", "Supabase", "Vercel", "Tailwind"]
