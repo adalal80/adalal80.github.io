@@ -1,0 +1,9 @@
+- name: "Stick a Fork in It"
+  description: "A lean, deterministic restaurant discovery and voting application engineered to eliminate group decision friction. Built with real-time state synchronization."
+  url: "https://forkitapp.co"
+  tech: ["React", "Supabase", "Vercel", "Tailwind"]
+
+- name: "Spanish Multi-Agent Simulation"
+  description: "An agentic operational framework utilizing custom text schemas to run high-frequency, conversational language acquisition simulations."
+  url: "#"
+  tech: ["Python", "Multi-Agent Architecture"]
