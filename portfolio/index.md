@@ -10,11 +10,13 @@ permalink: /portfolio/
 </p>
 
 <div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-  {% for project in site.data.projects.work_projects %}
+  {% for project in site.work_docs %}
     <div class="project-card" style="border: 1px solid #e0e0e0; padding: 1.25rem; border-radius: 6px; background: #fafafa; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
-        <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1.2rem; color: #111; font-weight: 600;">{{ project.name }}</h4>
-        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.description }}</p>
+        <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1.2rem; font-weight: 600;">
+          <a href="{{ project.url }}" style="text-decoration: none; color: #111;">{{ project.name }}</a>
+        </h4>
+        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.content | strip_html | truncatewords: 25 }}</p>
       </div>
       <div style="font-size: 0.8rem; color: #666; border-top: 1px solid #eee; padding-top: 0.75rem; font-family: monospace;">
         <strong>CAPABILITIES:</strong> {{ project.tech | join: ", " }}
@@ -31,13 +33,13 @@ permalink: /portfolio/
 </p>
 
 <div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-  {% for project in site.data.projects.personal_projects %}
+  {% for project in site.personal_docs %}
     <div class="project-card" style="border: 1px solid #e0e0e0; padding: 1.25rem; border-radius: 6px; background: #fafafa; display: flex; flex-direction: column; justify-content: space-between;">
       <div>
         <h4 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1.2rem;">
-          <a href="{{ project.url }}" target="_blank" style="text-decoration: none; color: #0076ff; font-weight: 600;">{{ project.name }}</a>
+          <a href="{{ project.url }}" style="text-decoration: none; color: #0076ff; font-weight: 600;">{{ project.name }}</a>
         </h4>
-        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.description }}</p>
+        <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.25rem; color: #333;">{{ project.content | strip_html | truncatewords: 25 }}</p>
       </div>
       <div style="font-size: 0.8rem; color: #666; border-top: 1px solid #eee; padding-top: 0.75rem; font-family: monospace;">
         <strong>STACK:</strong> {{ project.tech | join: ", " }}
