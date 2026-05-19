@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Work Projects
 permalink: /portfolio/work/
 ---
 
-<h2 style="margin-top: 1.5rem; margin-bottom: 0.5rem; border-bottom: none;">Work Portfolio</h2>
+<h2 style="margin-top: 1.5rem; margin-bottom: 0.5rem; border-bottom: none; font-weight: 700;">Work Portfolio</h2>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444; margin-bottom: 2rem;">
   Production-grade enterprise engines, econometric validation models, and risk management systems.
 </p>
